@@ -1,0 +1,7 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="o!KmgAq5v(h9WOLWKW[}" x="283" y="-21"/><block type="pxt-on-start" id="H(XO#lOZ7sW{jFAL17*c" x="0" y="0"><statement name="HANDLER"><block type="device_print_message" id="j8ns*y6Zn2V8y5=SiW.l"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="text"><shadow type="text" id="1lu{_F,4iLTRVS=V?tz0"><field name="TEXT">hi!</field></shadow></value></block></statement></block><block type="device_button_selected_event" id="c%rW)#0T,aIi1Hb/Q|Ts" x="1" y="129"><field name="NAME">Button.A</field><value name="eventType"><shadow type="control_button_event_click" id="A;_-BFU2Q%/$R_Zo]R@!"/></value><statement name="HANDLER"><block type="device_show_leds" id="BLySmU6SzseZxmSMh92P"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        # # # # # 
+        # # . # # 
+        # # . # #
+        `</field><next><block type="playMelody" id="5t(A-JepTnKm3f$o0`,K"><value name="melody"><shadow type="melody_editor" id="Zl3Cm$@~uLHn=rA0I%Q)"><field name="melody">"E B C5 A B G A F "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="H~#mu[Et*aSH~C:99o|z"><mutation min="40" max="500" label="Tempo" precision="0"/><field name="SLIDER">120</field></shadow></value></block></next></block></statement></block></xml>
